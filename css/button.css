@@ -1,0 +1,67 @@
+:root {
+    --dark-color: #000;
+}
+
+body {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, #000 0px, #000 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, #000 0px, #000 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, #000 0px, #000 19px, transparent 19px, transparent 22px), linear-gradient(90deg, #00fffa, #f0f0f0);
+    overflow: hidden;
+}
+
+.container{
+    color:#fff;
+    height: 800px;
+    position: relative;
+    display:flex;
+    margin: 0;
+}
+  
+.center {
+    display:flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+.button-74 {
+  background-color: #bbd4f8;
+  border: 2px solid #194550;
+  border-radius: 30px;
+  box-shadow: #194550 4px 4px 0 0;
+  color: #194550;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #1f72a2 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
